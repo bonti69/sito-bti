@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <title>BTI - Bontempi Tecno Impianti</title>
+  </head>
+  <body>
+    <div class="grey-layer">
+      <div class="wrapper">
+        <a href="index.html"><p class="return">Chiudi</p></a>
+        <div class="center">
+          <h1 style="margin-bottom: 5vh">Richiedi ora il tuo preventivo!</h1>
+          <div class="wrapper-selezione">
+            <select name="options" class = "selezione margin-top" style="height: 5vh" name="states[]" multiple="multiple" data-placeholder="Aggiungi un prodotto...">
+              <option value = "Punto Luce Serie Light (Generico)">Punto Luce Serie Light (Generico)</option>
+              <option value = "Punto Luce Serie Light (punto presa Bipasso)">Punto Luce Serie Light (punto presa Bipasso)</option>
+              <option value = "Punto Luce Serie Light (punto presa Shuko)">Punto Luce Serie Light (punto presa Shuko)</option>
+              <option value = "Punto Luce Serie Light (punto presa TV)">Punto Luce Serie Light (punto presa TV)</option>
+              <option value = "Punto Luce Serie Light (punto presa SAT)">Punto Luce Serie Light (punto presa SAT)</option>
+              <option value = "Punto Luce Serie Light (punto suoneria con tirante)">Punto Luce Serie Light (punto suoneria con tirante)</option>
+              <option value = "Centralina TV Terrestre">Centralina TV Terrestre</option>
+              <option value = "Parabola in Alluminio completa di staffa">Parabola in Alluminio completa di staffa</option>
+              <option value = "Antenna Terrestre completa di staffa">Antenna Terrestre completa di staffa</option>
+             </select>
+             <button type="button" class="add" name="button">Aggiungi alla selezione</button>
+             <button type="button" class="reset" name="button">Ricomincia da capo</button>
+          </div>
+          <table class="products-list">
+            <!-- <tr>
+              <td class="articolo nome">Articolo 1</td>
+              <td class="articolo">
+                <span>Quantità</span>
+                <span><div class="wrapper-quantity"><select class="quantity" name="num"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></div>
+                  <img class="trash-icon" src="foto-lavori/trash-bin" alt=""></span></td></tr> -->
+          </table>
+          <form class="" action="preventivo.php" method="post">
+            <table>
+              <tr>
+                <td class="form-sx">
+                  <input class="dati-cliente" type="text" name="nome" placeholder="Nome"><br>
+                  <input class="dati-cliente" type="text" name="cognome" placeholder="Cognome"><br>
+                  <input class="dati-cliente" type="email" name="email" placeholder="E-mail"><br>
+                  <input class="dati-cliente" type="tel" name="tel" placeholder="Numero di telefono"><br>
+                </td>
+                <td class="form-dx">
+                  <textarea class="note" type="text" name="note" placeholder="Note"></textarea><br>
+                </td>
+              </tr>
+            </table>
+          </form>
+          <div class="total-price">
+          <button type="button" class="richiedi" name="button">Richiedi il tuo preventivo</button>
+          </div>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+      <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+      <script src="index.js"></script>
+  </body>
+</html>
