@@ -370,4 +370,11 @@ ul{
   .home-page-title {
     font-size: 3rem;
   }
+  
+    .menu-icon{
+    top: 3vw;
+    left: 3vw;
+    height: 64px;
+    width: 64px;
+  }
 }
