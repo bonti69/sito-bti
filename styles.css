@@ -360,3 +360,14 @@ ul{
 .richiedi {
   margin-bottom: 3vh;
 }
+
+
+@media screen and (max-width: 600px) {
+  .home-page-subtitle{
+    font-size: 2rem;
+  }
+
+  .home-page-title {
+    font-size: 3rem;
+  }
+}
