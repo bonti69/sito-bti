@@ -371,6 +371,7 @@ ul{
 body{
   background-image: url("foto-lavori/blive2-mobile.jpg");
   -webkit-transition: -webkit-transform background-image 0s ease-in-out;
+  transition: background-image 0s ease-in-out;
 }
 
   .mobile-display-block {
