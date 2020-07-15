@@ -36,7 +36,7 @@ if (isMobile()) {
       current = current % backgrounds.length;
       $("body").css('background-image', "url('" + backgrounds[current] + "')");
   }
-  setInterval(nextBackground, 5000);
+  setInterval(nextBackground, 10000);
 
   $(".home-page").css('background-image', backgrounds[0]);
   });
