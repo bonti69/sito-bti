@@ -378,7 +378,7 @@ ul{
 }
 
 @media screen and (max-width: 900px) {
-body{
+.rotating-background {
   background-image: url("foto-lavori/blive2-mobile.jpg");
   transition: none;
   -webkit-transition: none;
